@@ -1,0 +1,11 @@
+nav {
+  min-height: 100vh;
+}
+.nav-link {
+  margin-bottom: 5px;
+}
+
+.card img {
+  object-fit: cover;
+  height: 150px;
+}

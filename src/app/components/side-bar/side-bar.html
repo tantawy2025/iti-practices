@@ -1,1 +1,8 @@
-<p>side-bar works!</p>
+<nav class="p-3 vh-100">
+  <h5>Categories</h5>
+  <ul class="nav flex-column">
+    <li class="nav-item" *ngFor="let category of categories">
+      <a href="#" class="nav-link text-black">{{ category }}</a>
+    </li>
+  </ul>
+</nav>

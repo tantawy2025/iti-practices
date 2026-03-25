@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './side-bar.html',
   styleUrl: './side-bar.css',
 })
-export class SideBar {}
+export class SideBar {
+
+    categories: string[] = ['All Products', 'Electronics', 'Clothing', 'Books', 'Toys'];
+
+}
